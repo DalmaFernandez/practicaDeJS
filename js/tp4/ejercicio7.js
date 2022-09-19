@@ -1,0 +1,25 @@
+// 7- Nos piden realizar una agenda telefónica de contactos.
+
+// import { Agenda } from "./Agenda.js";
+// import { Contacto } from "./Contacto.js";
+
+// Un contacto está definido por un nombre y un teléfono. Se considera que un contacto es igual a otro cuando sus nombres son iguales.
+
+// Una agenda de contactos está formada por un conjunto de contactos. Se podrá crear de dos formas, indicando nosotros el tamaño o con un tamaño por defecto (10).
+
+// Los métodos de la agenda serán los siguientes:
+
+// aniadirContacto(Contacto): Añade un contacto a la agenda, sino la agenda no puede almacenar más contactos indicar por pantalla.
+// existeContacto(Conctacto): indica si el contacto pasado existe o no.
+// listarContactos(): Lista toda la agenda
+// buscarContacto(nombre): busca un contacto por su nombre y muestra su teléfono.
+// eliminarContacto(Contacto c): elimina el contacto de la agenda, indica si se ha eliminado o no por pantalla
+// agendaLlena(): indica si la agenda está llena.
+// huecosLibres(): indica cuántos contactos más podemos ingresar.
+// const agenda = new Agenda();
+// const juan = new Contacto("Juan",3815780794);
+// agenda.añadirContacto(juan);
+// console.log(agenda);
+var numero=7+5;
+console.log(numero);
+
